@@ -52,7 +52,8 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
     ```
 
 ## Contribución
-:information_source: **Nota:** Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante.
+:information_source: **Nota:** Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante. <br>
+![VisualStudioCode terminal](https://drive.google.com/file/d/1IDQ-jZluoKYXRez8TXsNoRPvvT3uyxfm/view?usp=sharing)
  Para poder abrir la terminal pulsa <strong>Control + ñ</strong> <br><br>
 
 Para contribuir a este proyecto, sigue estos pasos:
