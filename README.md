@@ -28,7 +28,7 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
 1. Clonar el repositorio:
    
     ```bash
-    git clone https://github.com/usuario/PayKawaii.git
+    git clone git@github.com:UlisesRS1/PayKawaii.git
     ```
 
 2. Navegar al directorio del proyecto:
