@@ -113,7 +113,7 @@ Para contribuir a este proyecto, sigue estos pasos:
       Proporciona un título claro y una descripción detallada de los cambios que has realizado. Explica por qué estos cambios son necesarios y cualquier otra información relevante.
     
     - **Crear el Pull Request:**
-      Haz clic en "Create pull request" para enviar tu solicitud. Esto notificará a los mantenedores del proyecto para que revisen tus cambios.
+      Haz clic en "Create pull request" para enviar tu solicitud.
 
 ## Contacto
  
