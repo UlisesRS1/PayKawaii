@@ -101,6 +101,7 @@ Para contribuir a este proyecto, sigue estos pasos:
 
     - **Ir a la Página de Pull Requests:**
       Dirígete a la pestaña "Pull requests" en tu repositorio forkeado en GitHub.
+      ![Pull request page](https://github.com/UlisesRS1/PayKawaii/assets/119071486/cc728d34-3b05-4184-9f79-37038c0fbae1)
     
     - **Iniciar un Nuevo Pull Request:**
       Haz clic en el botón "New pull request".
