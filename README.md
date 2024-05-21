@@ -22,7 +22,7 @@ Se basa en un proyecto de innovaición, en el cual la compañia se llama PayKawa
 - JavaScript
 
 ## Instalación
-
+ 
 Para poder visualizar y utilizar esta página web, necesitas un servidor como XAMPP. Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. Clonar el repositorio:
@@ -52,8 +52,11 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
     ```
 
 ## Contribución
+**Nota**: Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante.
+ Para poder abrir la terminal pulsa <strong>Control + ñ</strong> <br><br>
 
 Para contribuir a este proyecto, sigue estos pasos:
+
 
 1. **Fork del Repositorio:**
    Haz un fork del repositorio original para crear una copia en tu cuenta de GitHub.
@@ -62,14 +65,14 @@ Para contribuir a este proyecto, sigue estos pasos:
    Clona tu copia del repositorio a tu máquina local.
 
     ```bash
-    git clone https://github.com/tu-usuario/PayKawai.git
+    git clone https://github.com/tu-usuario/PayKawaii.git
     ```
 
 3. **Crear una Nueva Rama:**
    Crea una nueva rama para trabajar en tu aporte.
 
     ```bash
-    cd PayKawai
+    cd PayKawaii
     git checkout -b nombre-de-tu-rama
     ```
 
