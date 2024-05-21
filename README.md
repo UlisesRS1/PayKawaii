@@ -107,7 +107,7 @@ Para contribuir a este proyecto, sigue estos pasos:
       Haz clic en el botón "New pull request".
     
     - **Seleccionar las Ramas:**
-      Asegúrate de que la rama base sea la rama principal del repositorio original (generalmente `main` o `master`) y que la rama de comparación sea la rama en la que trabajaste.
+      Asegúrate de que la rama base sea la rama principal `main` y que la rama de comparación sea la rama en la que trabajaste.
     
     - **Agregar un Título y Descripción:**
       Proporciona un título claro y una descripción detallada de los cambios que has realizado. Explica por qué estos cambios son necesarios y cualquier otra información relevante.
