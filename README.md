@@ -50,6 +50,65 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
     ```
     http://localhost/PayKawaii
     ```
+
+## Contribución
+
+Para contribuir a este proyecto, sigue estos pasos:
+
+1. **Fork del Repositorio:**
+   Haz un fork del repositorio original para crear una copia en tu cuenta de GitHub.
+
+2. **Clonar el Repositorio Forkeado:**
+   Clona tu copia del repositorio a tu máquina local.
+
+    ```bash
+    git clone https://github.com/tu-usuario/PayKawai.git
+    ```
+
+3. **Crear una Nueva Rama:**
+   Crea una nueva rama para trabajar en tu aporte.
+
+    ```bash
+    cd PayKawai
+    git checkout -b nombre-de-tu-rama
+    ```
+
+4. **Realizar Cambios:**
+   Realiza los cambios necesarios en tu rama.
+
+5. **Confirmar Cambios:**
+   Confirma los cambios realizados.
+
+    ```bash
+    git add .
+    git commit -m "Descripción de los cambios"
+    ```
+
+6. **Subir los Cambios a GitHub:**
+   Sube los cambios a tu repositorio forkeado en GitHub.
+
+    ```bash
+    git push origin nombre-de-tu-rama
+    ```
+
+7. **Crear un Pull Request:**
+   Ve a tu repositorio en GitHub y crea un Pull Request hacia la rama principal del repositorio original.
+
+    - **Ir a la Página de Pull Requests:**
+      Dirígete a la pestaña "Pull requests" en tu repositorio forkeado en GitHub.
+    
+    - **Iniciar un Nuevo Pull Request:**
+      Haz clic en el botón "New pull request".
+    
+    - **Seleccionar las Ramas:**
+      Asegúrate de que la rama base sea la rama principal del repositorio original (generalmente `main` o `master`) y que la rama de comparación sea la rama en la que trabajaste.
+    
+    - **Agregar un Título y Descripción:**
+      Proporciona un título claro y una descripción detallada de los cambios que has realizado. Explica por qué estos cambios son necesarios y cualquier otra información relevante.
+    
+    - **Crear el Pull Request:**
+      Haz clic en "Create pull request" para enviar tu solicitud. Esto notificará a los mantenedores del proyecto para que revisen tus cambios.
+
 ## Contacto
 
 Rodriguez Solorzano Ulises - [rodriguezsolorzanoulises@gmail.com](mailto:rodriguezsolorzanoulises@gmail.com)
