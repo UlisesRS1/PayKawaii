@@ -1,6 +1,6 @@
 # PayKawai
 
-PayKawai es una página web desarrollada como parte de un proyecto académico para uno de los emprendimientos de nuestra escuela. Este proyecto es útil académicamente como historial de desarrollo en equipo y como práctica para obtener una buena calificación.
+PayKawai es una página web desarrollada como parte de un proyecto académico para uno de los emprendimientos de nuestra escuela. Este proyecto es útil académicamente como historial de desarrollo en equipo y como práctica para obtener experiencia en el desarrollo web.
 
 ## Descripción
 
