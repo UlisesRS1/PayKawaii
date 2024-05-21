@@ -11,7 +11,7 @@
     <!-- Ya aqui le mueven a la pagina principal gtft-->
     <!-- Si es posible pongan comentarios en cada cosa nueva que hagan, hanganlos sencillos, mas si es un formulario para saber
          que es lo que vamos a trabajar en BackEnd, Gracias xd  -->
-
          <!-- Prueba de git -->
+        <!-- Pruebas de git -->
 </body>
 </html>
