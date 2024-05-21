@@ -1,4 +1,4 @@
-# PayKawai
+# PayKawaii
 
 PayKawai es una página web desarrollada como parte de un proyecto académico para uno de los emprendimientos de nuestra escuela. Este proyecto es útil académicamente como historial de desarrollo en equipo y como práctica para obtener experiencia en el desarrollo web.
 
@@ -40,7 +40,7 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
 3. Mover el proyecto al directorio `htdocs` de XAMPP:
 
     ```bash
-    mv PayKawai C:/xampp/htdocs/
+    mv PayKawaii C:/xampp/htdocs/
     ```
 
 4. Iniciar el servidor Apache desde el panel de control de XAMPP.
