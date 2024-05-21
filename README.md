@@ -52,7 +52,7 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
     ```
 
 ## Contribución
-**Nota**: Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante.
+:information_source: **Nota:** Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante.
  Para poder abrir la terminal pulsa <strong>Control + ñ</strong> <br><br>
 
 Para contribuir a este proyecto, sigue estos pasos:
@@ -113,5 +113,5 @@ Para contribuir a este proyecto, sigue estos pasos:
       Haz clic en "Create pull request" para enviar tu solicitud. Esto notificará a los mantenedores del proyecto para que revisen tus cambios.
 
 ## Contacto
-
+ 
 Rodriguez Solorzano Ulises - [rodriguezsolorzanoulises@gmail.com](mailto:rodriguezsolorzanoulises@gmail.com)
