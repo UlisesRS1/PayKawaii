@@ -53,8 +53,9 @@ Para poder visualizar y utilizar esta página web, necesitas un servidor como XA
 
 ## Contribución
 :information_source: **Nota:** Como se esta utilzando Visual Studio Code como editor de texto, podemos usar la terminal de este mismo para ejecutar los comandos que se muestran más adelante. <br>
-![VisualStudioCode terminal](https://drive.google.com/file/d/1IDQ-jZluoKYXRez8TXsNoRPvvT3uyxfm/view?usp=drive_link)
- Para poder abrir la terminal pulsa <strong>Control + ñ</strong> <br><br>
+
+ Para poder abrir la terminal pulsa <strong>Control + ñ</strong>
+ ![VisualStudioCode terminal](https://github.com/UlisesRS1/PayKawaii/assets/119071486/7f7b1855-eaf1-4e85-96ba-6b249cd5aef0)
 
 Para contribuir a este proyecto, sigue estos pasos:
 
