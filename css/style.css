@@ -1,0 +1,41 @@
+.carousel-caption{
+    color:black;
+}
+.footer{
+    background-color:#2B0A07;
+    color:aliceblue;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+}
+.scrolls{
+    background-color: #fbe9d7;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+.navbar{
+    background-color: #eebea5;
+}
+.fs-1, .morado{
+    color: #eca356;
+}
+.fs-3{
+    color:#f69da3;
+    background-color: rgba(137, 43, 226, 0.555);
+    border-radius: 2rem;
+}
+.fs-4{
+    
+}
+.btn1{
+  background-color: #a8e9ee;
+  height: 50px;
+  color:#2B0A07;
+}
+
+.card{
+    background-color: #f1b87b;
+}

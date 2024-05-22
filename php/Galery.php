@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    
+
 </head>
 <body>
     <div class="container">
@@ -17,12 +17,12 @@
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
                     <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
@@ -39,12 +39,12 @@
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
                     <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
@@ -59,7 +59,126 @@
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
-        
+                    <!-- Galeryyyy bien -->
+                    <div class="row mt-3 align-items-center" id="galery">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#galery-1">
+                    <img src="../img/Pay1.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-2">
+                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-3">
+                    <img src="../img/rebanada2.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-4">
+                    <img src="../img/flan.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-5">
+                    <img src="../img/flan2.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-6">
+                    <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+            </div>
+
+                    <!-- Galeryyyyyy Modaaaall-->
+                    <div class="modal fade" id="galery-1" tabindex="-1">
+              <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../img/Pay1.jpg" alt="" class="w-100">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- Galeria 2 -->
+            <div class="modal fade" id="galery-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- Galeria 3 -->
+
+          <div class="modal fade" id="galery-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../img/rebanada2.jpg" alt="" class="w-100">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Galeria 4 -->
+
+        <div class="modal fade" id="galery-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">          
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../img/flan.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+
+        <!-- Galeria 5 -->
+
+        <div class="modal fade" id="galery-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../img/flan2.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+
+        <!-- Galeria 6 -->
+
+        <div class="modal fade" id="galery-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+                    
                                      
                     <h4 id="scrollspyHeading5"></h4>
                     <footer class="border col-12 footer align-items-center justify-content-around">
