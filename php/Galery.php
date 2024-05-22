@@ -17,12 +17,12 @@
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
                     <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
@@ -39,12 +39,12 @@
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
                     <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
@@ -78,17 +78,17 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-4">
-                    <img src="../img/.jpg" alt="" class="w-100">
+                    <img src="../img/flan.jpg" alt="" class="w-100">
                   </button>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-5">
-                    <img src="img/galery-5.jpg" alt="" class="w-100">
+                    <img src="../img/flan2.jpg" alt="" class="w-100">
                   </button>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-6">
-                    <img src="img/galery-6.jpg" alt="" class="w-100">
+                    <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
                   </button>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="img/galery-1.jpg" alt="" class="w-100">
+                    <img src="../img/Pay1.jpg" alt="" class="w-100">
                   </div>
               </div>
               </div>
@@ -114,7 +114,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="img/galery-2.jpg" alt="" class="w-100">
+                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
                   </div>
               </div>
               </div>
@@ -128,7 +128,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img src="img/galery-3.jpg" alt="" class="w-100">
+                  <img src="../img/rebanada2.jpg" alt="" class="w-100">
                 </div>
             </div>
             </div>
@@ -143,7 +143,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="img/galery-4.jpg" alt="" class="w-100">
+                <img src="../img/flan.jpg" alt="" class="w-100">
               </div>
           </div>
           </div>
@@ -158,7 +158,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="img/galery-5.jpg" alt="" class="w-100">
+                <img src="../img/flan2.jpg" alt="" class="w-100">
               </div>
           </div>
           </div>
@@ -173,7 +173,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="../img/Pay1.jpg" alt="" class="w-100">
+                <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
               </div>
           </div>
           </div>
