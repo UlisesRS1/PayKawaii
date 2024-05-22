@@ -28,7 +28,7 @@
                         <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
@@ -51,7 +51,7 @@
                         <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
