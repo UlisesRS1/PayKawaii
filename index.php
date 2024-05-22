@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="icon" href="icon/PayKawaii.ico">
+
 </head>
 <body>
     <div class="container">
