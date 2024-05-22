@@ -2,7 +2,7 @@
     color:black;
 }
 .footer{
-    background-color: rgb(58, 0, 151);
+    background-color:#2B0A07;
     color:aliceblue;
     padding-bottom: 0px;
     padding-left: 16px;
@@ -10,24 +10,32 @@
     padding-top: 7px;
 }
 .scrolls{
-    background-color: rgb(250, 207, 252);
+    background-color: #fbe9d7;
     padding-bottom: 0px;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
 }
 .navbar{
-    background-color: rgb(250, 207, 252);
+    background-color: #eebea5;
 }
 .fs-1, .morado{
-    color: rgb(134, 48, 204);
+    color: #eca356;
 }
 .fs-3{
-    color:rgb(137, 196, 252);
+    color:#f69da3;
     background-color: rgba(137, 43, 226, 0.555);
     border-radius: 2rem;
 }
+.fs-4{
+    
+}
 .btn1{
-  background-color: rgb(130, 130, 130);
+  background-color: #a8e9ee;
   height: 50px;
+  color:#2B0A07;
+}
+
+.card{
+    background-color: #f1b87b;
 }
