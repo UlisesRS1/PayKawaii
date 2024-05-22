@@ -59,7 +59,126 @@
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
-        
+                    <!-- Galeryyyy bien -->
+                    <div class="row mt-3 align-items-center" id="galery">
+                <div class="col-4 p-3">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#galery-1">
+                    <img src="../img/Pay1.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-4 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-2">
+                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-4 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-3">
+                    <img src="../img/rebanada2.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-4 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-4">
+                    <img src="../img/.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-4 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-5">
+                    <img src="img/galery-5.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+                <div class="col-4 p-3">
+                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-6">
+                    <img src="img/galery-6.jpg" alt="" class="w-100">
+                  </button>
+                </div>
+            </div>
+
+                    <!-- Galeryyyyyy Modaaaall-->
+                    <div class="modal fade" id="galery-1" tabindex="-1">
+              <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/galery-1.jpg" alt="" class="w-100">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- Galeria 2 -->
+            <div class="modal fade" id="galery-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/galery-2.jpg" alt="" class="w-100">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- Galeria 3 -->
+
+          <div class="modal fade" id="galery-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/galery-3.jpg" alt="" class="w-100">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Galeria 4 -->
+
+        <div class="modal fade" id="galery-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">          
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/galery-4.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+
+        <!-- Galeria 5 -->
+
+        <div class="modal fade" id="galery-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/galery-5.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+
+        <!-- Galeria 6 -->
+
+        <div class="modal fade" id="galery-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../img/Pay1.jpg" alt="" class="w-100">
+              </div>
+          </div>
+          </div>
+      </div>
+                    
                                      
                     <h4 id="scrollspyHeading5"></h4>
                     <footer class="border col-12 footer align-items-center justify-content-around">
