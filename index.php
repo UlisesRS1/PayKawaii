@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="icon" href="icon/PayKawaii.ico">
+
 </head>
 <body>
     <div class="container">
@@ -37,7 +38,7 @@
                   </nav>
                   </div>
                   <div class="d-none d-sm-none d-md-block">
-                  <nav id="navbar-example2" class="navbar px-3 mb-3">
+                  <nav id="navbar-example2" class="navbar fixed-top px-3 mb-3">
                     <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     <h1 class="navbar-brand text-danger fs-2" href="#">El pay Kawai</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
@@ -64,7 +65,7 @@
 
                     <h4 id="scrollspyHeading1"></h4>
                     <!-- Carrusel -->
-                    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block d-lg-block">
+                    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block d-lg-block mt-5">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
