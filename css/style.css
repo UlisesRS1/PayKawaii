@@ -1,0 +1,33 @@
+.carousel-caption{
+    color:black;
+}
+.footer{
+    background-color: rgb(58, 0, 151);
+    color:aliceblue;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+}
+.scrolls{
+    background-color: rgb(250, 207, 252);
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+.navbar{
+    background-color: rgb(250, 207, 252);
+}
+.fs-1, .morado{
+    color: rgb(134, 48, 204);
+}
+.fs-3{
+    color:rgb(137, 196, 252);
+    background-color: rgba(137, 43, 226, 0.555);
+    border-radius: 2rem;
+}
+.btn1{
+  background-color: rgb(130, 130, 130);
+  height: 50px;
+}
