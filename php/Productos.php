@@ -98,29 +98,7 @@
                 <div class="card-body">
                   <h5 class="card-title">pay de fresa</h5>
                   <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  
             </div>
 
             <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-black" style="width: 18rem;">
@@ -132,24 +110,7 @@
                     Comprar
                   </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
 
                 </div>
             </div>
