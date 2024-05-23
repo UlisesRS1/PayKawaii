@@ -15,14 +15,18 @@
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
+                <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <a href="../index.php">
+                        <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                      </a>
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
