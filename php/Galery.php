@@ -15,7 +15,9 @@
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
+                <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -37,7 +39,9 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
+                  <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -59,6 +63,7 @@
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
+                  <h4 id="scrollspyHeading2" class="fs-1">Nuestra galeria</h4>
                     <!-- Galeryyyy bien -->
                     <div class="row mt-3 align-items-center" id="galery">
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">

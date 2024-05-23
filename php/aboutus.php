@@ -10,24 +10,27 @@
     
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                    <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
+                    <h1 class="navbar-brand text-danger fs-2" href="#">El pay Kawai</h1>
+                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
+                        <a class="nav-link dropdown-toggle btn1 fs-4 shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
@@ -37,19 +40,22 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="" data-bs-target="">
+                  <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
+                    <h1 class="navbar-brand text-danger fs-2" href="#">El pay Kawai</h1>
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
+                        <a class="nav-link dropdown-toggle btn1 fs-4 shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
+                          <li class="nav-item"><a class="nav-link" href="php/aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
@@ -59,7 +65,22 @@
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
-        
+                  <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 23rem;">
+                            <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 20rem;">
+                            <div class="card-body">
+                              <h4 class="card-title">Sobre nosotros</h4>
+                              <p class="card-text">Somos un grupo de 4 amigos los que conformamos este equipo de trabajo, Cesar como el chef de los pasteles, Ulises como el ayudante del chef, Jairo es nuestro vendedor por experiencia y por ultimo Angel el administrador del dinero de nuestro negocio.<br>
+                                Estamos estudiando el 6to semestre en en Instituto Tecnologico Superior de Salvatierra. <br>
+                                Este es un trabajo para la materia de programacion web :)
+                              </p>                             
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                                      
                     <h4 id="scrollspyHeading5"></h4>
                     <footer class="border col-12 footer align-items-center justify-content-around">

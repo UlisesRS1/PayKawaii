@@ -18,7 +18,7 @@
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
                     <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     <h1 class="navbar-brand text-danger fs-2" href="#">El pay Kawai</h1>
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
@@ -49,7 +49,7 @@
                         <a class="nav-link dropdown-toggle btn1 fs-4 shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                         <ul class="dropdown-menu">
                         <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Nosotros</a></li>
+                          <li class="nav-item"><a class="nav-link" href="php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
                           <li><a class="dropdown-item" href="php/Contacto.php">Contacto</a></li>
