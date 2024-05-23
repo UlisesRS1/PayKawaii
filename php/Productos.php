@@ -10,6 +10,7 @@
 
 </head>
 <body>
+   <!-- COntainer de nav -->
     <div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
