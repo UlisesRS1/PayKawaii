@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
@@ -59,131 +59,21 @@
                   </nav>
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
-
-                       <!-- Cards -->
-    <div class=" container cards background-color-brown">
-        <h1 id="Cards" class="text-center">Nuestros productos</h1>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between align-content-center p-0  text-black " style="width: 18rem;">
-                <img src="../img/pay limon.jpeg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay de limon</h5>
-                  <p class="card-text">Un postre clásico con una base de galleta desmenuzada, relleno de una mezcla cremosa y refrescante de jugo de limón, huevos y leche condensada, coronado con una capa de crema batida o merengue. Es ácido, dulce y refrescante, perfecto para los amantes de los cítricos.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
+                    
+                  <div class="container">
+                    <h1>Contacto</h1>
+                        <form class="Contacto" action="enviar.php" method="POST">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                            <input class="btn1 " type="submit" value="Enviar">
+                        </form>
                     </div>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-black" style="width: 18rem;">
-                <img src="../img/pie fresa.jpeg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay de fresa</h5>
-                  <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-black" style="width: 18rem;">
-                <img src="../img/pay queso.jpeg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay de queso</h5>
-                  <p class="card-text"> Un clásico reconfortante con una base de galleta o masa quebrada, relleno de una mezcla suave y cremosa de queso crema, huevos, azúcar y vainilla, horneado hasta que esté dorado y ligeramente firme. Es rico, cremoso y ligeramente dulce, perfecto para aquellos que disfrutan de los postres más decadentes.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-black" style="width: 18rem;">
-                <img src="../img/pay cajeta.jpeg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay de cajeta</h5>
-                  <p class="card-text">Delicioso pay de queso cubierto de cajeta casera para dar un toque mas dulce a los amantes de la cajeta.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            
+                  
 
 
                     
