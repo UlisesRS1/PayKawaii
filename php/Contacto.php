@@ -49,8 +49,8 @@
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
