@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
@@ -15,9 +15,7 @@
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                <a href="../index.php">
-                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
-                    </a>
+                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -28,8 +26,9 @@
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
+                          <li><a class="dropdown-item" href="index.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contactanos</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
@@ -39,9 +38,7 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                  <a href="../index.php">
-                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
-                    </a>
+                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -52,8 +49,8 @@
                         <ul class="dropdown-menu">
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
@@ -62,127 +59,23 @@
                   </nav>
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
+                    
+                  <div class="container">
+                    <h1>Contacto</h1>
+                        <form class="Contacto" action="enviar.php" method="POST">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                            <input class="btn1 " type="submit" value="Enviar">
+                        </form>
+                    </div>
 
-                  <h4 id="scrollspyHeading2" class="fs-1">Nuestra galeria</h4>
-                    <!-- Galeryyyy bien -->
-                    <div class="row mt-3 align-items-center" id="galery">
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#galery-1">
-                    <img src="../img/Pay1.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-2">
-                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-3">
-                    <img src="../img/rebanada2.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-4">
-                    <img src="../img/flan.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-5">
-                    <img src="../img/flan2.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                  <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-6">
-                    <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
-                  </button>
-                </div>
-            </div>
+                  
 
-                    <!-- Galeryyyyyy Modaaaall-->
-                    <div class="modal fade" id="galery-1" tabindex="-1">
-              <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="../img/Pay1.jpg" alt="" class="w-100">
-                  </div>
-              </div>
-              </div>
-          </div>
-          <!-- Galeria 2 -->
-            <div class="modal fade" id="galery-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <img src="../img/Rebanada.jpg" alt="" class="w-100">
-                  </div>
-              </div>
-              </div>
-          </div>
-          <!-- Galeria 3 -->
 
-          <div class="modal fade" id="galery-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <img src="../img/rebanada2.jpg" alt="" class="w-100">
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <!-- Galeria 4 -->
-
-        <div class="modal fade" id="galery-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">          
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="../img/flan.jpg" alt="" class="w-100">
-              </div>
-          </div>
-          </div>
-      </div>
-
-        <!-- Galeria 5 -->
-
-        <div class="modal fade" id="galery-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="../img/flan2.jpg" alt="" class="w-100">
-              </div>
-          </div>
-          </div>
-      </div>
-
-        <!-- Galeria 6 -->
-
-        <div class="modal fade" id="galery-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
-              </div>
-          </div>
-          </div>
-      </div>
                     
                                      
                     <h4 id="scrollspyHeading5"></h4>
