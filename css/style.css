@@ -80,7 +80,9 @@ textarea.limited-textarea {
     .card {
         width: 100%;
     }
+
+
+.Contacto input[type="submit"]:hover {
+    background-color: #0056b3;
 }
-
-
 

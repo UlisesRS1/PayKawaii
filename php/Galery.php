@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galeria</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
@@ -13,25 +13,23 @@
     <div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
-                <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
                 <a href="../index.php">
                     <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -42,20 +40,18 @@
                   <a href="../index.php">
                     <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading3">Conocenos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Galeria</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
                         </ul>
                       </li>
                     </ul>
