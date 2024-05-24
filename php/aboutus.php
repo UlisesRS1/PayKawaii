@@ -27,12 +27,10 @@
                         <a class="nav-link dropdown-toggle btn1 fs-4 shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                         <ul class="dropdown-menu">
                         <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Nosotros</a></li>
-                          <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -51,13 +49,10 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle btn1 fs-4 shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                         <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="php/aboutus.php">Nosotros</a></li>
-                          <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                
                         </ul>
                       </li>
                     </ul>
