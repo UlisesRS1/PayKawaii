@@ -14,28 +14,25 @@
     <div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
-                <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                    <a href="../index.php">
-                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                      <a href="../index.php">
-                        <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
-                      </a>
+                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="index.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contactanos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                                          
+
                         </ul>
                       </li>
                     </ul>
@@ -43,120 +40,70 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                    <a href="../index.php">
-                     <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                  <a href="../index.php">
+                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
-                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contactos</a></li>
 
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                 
                         </ul>
                       </li>
                     </ul>
                   </nav>
                   </div>
-                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls"tabindex="0">
 
-                      <!-- Cards -->
-    <div class=" container cards background-color-brown">
-        <h1 id="Cards" class="text-center">Nuestros productos</h1>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between align-content-center p-0  text-Black " style="width: 18rem;">
-                <img src="../img/pay limon.jpeg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay de limon</h5>
-                  <p class="card-text">Un postre clásico con una base de galleta desmenuzada, relleno de una mezcla cremosa y refrescante de jugo de limón, huevos y leche condensada, coronado con una capa de crema batida o merengue. Es ácido, dulce y refrescante, perfecto para los amantes de los cítricos.</p>
-                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
+                      <!-- Carta -->
+        <div class=" container carta background-color-brown">
+            <h1 id="Cards" class="text-center">Nuestros productos</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between align-content-center p-0  text-Black " style="width: 18rem;">
+                    <img src="../img/pay limon.jpeg" class="card-img-top" alt="pays">
+                    <div class="card-body">
+                      <h5 class="card-title">Pay de limon</h5>
+                      <p class="card-text">Un postre clásico con una base de galleta desmenuzada, relleno de una mezcla cremosa y refrescante de jugo de limón, huevos y leche condensada, coronado con una capa de crema batida o merengue. Es ácido, dulce y refrescante, perfecto para los amantes de los cítricos.</p>
+                      <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="product-price">$20</div>
+                      </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn1 btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
             </div>
+
             <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-Black" style="width: 18rem;">
                 <img src="../img/pie fresa.jpeg" class="card-img-top" alt="pays">
                 <div class="card-body">
-                  <h5 class="card-title">pay de fresa</h5>
+                  <h5 class="card-title">Pay de fresa</h5>
                   <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
+                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="product-price">$20</div>
+                    </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+                  
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-black" style="width: 18rem;">
                 <img src="../img/pay queso.jpeg" class="card-img-top" alt="pays">
                 <div class="card-body">
-                  <h5 class="card-title">pay de queso</h5>
+                  <h5 class="card-title">Pay de queso</h5>
                   <p class="card-text"> Un clásico reconfortante con una base de galleta o masa quebrada, relleno de una mezcla suave y cremosa de queso crema, huevos, azúcar y vainilla, horneado hasta que esté dorado y ligeramente firme. Es rico, cremoso y ligeramente dulce, perfecto para aquellos que disfrutan de los postres más decadentes.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
+                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="product-price">$20</div>
                   </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
 
                 </div>
             </div>
@@ -164,93 +111,18 @@
             <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-Black" style="width: 18rem;">
                 <img src="../img/pay cajeta.jpeg" class="card-img-top" alt="pays">
                 <div class="card-body">
-                  <h5 class="card-title">pay de cajeta</h5>
-                  <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
+                  <h5 class="card-title">Pay de cajeta</h5>
+                  <p class="card-text">El pay de cajeta es un postre tradicional mexicano que combina una base crujiente con un relleno cremoso y dulce de cajeta, una especie de dulce de leche elaborado a partir de leche de cabra. Este postre es una delicia para el paladar, ofreciendo una textura suave y un sabor caramelizado que se derrite en la boca.</p>
+                  <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="product-price">$20</div>
                   </button>
 
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
             </div>
             
 
-            <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-Black" style="width: 18rem;">
-                <img src="../img/flan.jpg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">flan</h5>
-                  <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3 col-xxl-12 card container justify-content-between p-0  text-Black" style="width: 18rem;">
-                <img src="../img/rebanada2.jpg" class="card-img-top" alt="pays">
-                <div class="card-body">
-                  <h5 class="card-title">pay con frutos rojos</h5>
-                  <p class="card-text">Delicioso postre con una base de masa crujiente, rellena de una mezcla de fresas frescas o en puré, azúcar y gelatina, y adornado con crema batida o rodajas de fresa. Es dulce, fresco y frutal, ideal para los amantes de las fresas y los postres ligeros.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Comprar
-                  </button>
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
+            
 
 
             
