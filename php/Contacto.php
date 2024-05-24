@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosostros</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    
+
 </head>
 <body>
-<div class="container">
-        <div class="row"> 
+    <div class="container">
+        <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
-            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                <a href="../index.php">
-                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    <a href="../index.php">
+                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
-                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
+                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown text-center">
-                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-
-                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
-                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                                          
-
+                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
+                          <li><a class="dropdown-item" href="index.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contactanos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -39,22 +40,22 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                  <a href="../index.php">
-                    <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    <a href="../index.php">
+                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-
-                        <li class="nav-item"><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -68,16 +69,32 @@
                             <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
                         </div>
                         <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 20rem;">
-                            <div class="card-body">
-                              <h4 class="card-title">Sobre nosotros</h4>
-                              <p class="card-text">Somos un grupo de 4 amigos los que conformamos este equipo de trabajo, Cesar como el chef de los pasteles, Ulises como el ayudante del chef, Jairo es nuestro vendedor por experiencia y por ultimo Angel el administrador del dinero de nuestro negocio.<br>
-                                Estamos estudiando el 6to semestre en en Instituto Tecnologico Superior de Salvatierra. <br>
-                                Este es un trabajo para la materia de programacion web :)
-                              </p>                             
-                            </div>
+                        <div class="containers card ">
+                    <h1>Contacto</h1>
+                        <form class="Contactos" action="enviar.php" method="POST">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                            <input class="btn1 " type="submit" value="Enviar">
+                        </form>
+                    </div>
                         </div>
                       </div>
                     </div>
+
+                 
+
+                    
+                    
+                  
+
+                  
+
+
+                    
                                      
                     <h4 id="scrollspyHeading5"></h4>
                     <footer class="border col-12 footer align-items-center justify-content-around">

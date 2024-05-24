@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PayKawaii</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="icon" href="icon/PayKawaii.ico">
+
 </head>
 <body>
     <div class="container">
@@ -15,10 +16,12 @@
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
+
                 <a href="index.php">
                     <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+
                     <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
@@ -26,22 +29,25 @@
                       <li class="nav-item dropdown text-center">
                       <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
+
+                          <li class="nav-item"><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="php/Contacto.php">Contacto</a></li>
+
                         </ul>
                       </li>
                     </ul>
                   </nav>
                   </div>
                   <div class="d-none d-sm-none d-md-block">
-                  <nav id="navbar-example2" class="navbar px-3 mb-3">
-                  <a href="index.php">
-                    <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
+
+                  <nav id="navbar-example2" class="navbar fixed-top px-3 mb-3">
+                    <a href="index.php">
+                      <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
                     </button>
@@ -49,11 +55,12 @@
                       <li class="nav-item dropdown">
                       <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
+
+                          <li class="nav-item"><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="php/Contacto.php">Contacto</a></li>
+
                         </ul>
                       </li>
                     </ul>
@@ -64,7 +71,7 @@
 
                     <h4 id="scrollspyHeading1"></h4>
                     <!-- Carrusel -->
-                    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block d-lg-block">
+                    <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block d-lg-block mt-5">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
