@@ -30,7 +30,6 @@
                           <li><a class="dropdown-item" href="../php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
                         </ul>
                       </li>
                     </ul>
@@ -53,7 +52,6 @@
                           <li><a class="dropdown-item" href="../php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading4">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
                         </ul>
                       </li>
                     </ul>
