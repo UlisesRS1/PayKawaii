@@ -29,8 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
-                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                                          
                         </ul>
                       </li>
                     </ul>
