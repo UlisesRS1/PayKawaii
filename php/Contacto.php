@@ -15,7 +15,9 @@
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
+                    <a href="../index.php">
+                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -38,7 +40,9 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
-                    <img src="../svg/PayKawaii.svg" alt="" width="100" height="100">
+                    <a href="../index.php">
+                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                    </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
                     <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
                                 Perfil
@@ -47,10 +51,9 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
                         </ul>
@@ -59,10 +62,16 @@
                   </nav>
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
-                    
+
                   <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 23rem;">
+                            <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 20rem;">
+                        <div class="containers card ">
                     <h1>Contacto</h1>
-                        <form class="Contacto" action="enviar.php" method="POST">
+                        <form class="Contactos" action="enviar.php" method="POST">
                             <label for="nombre">Nombre:</label>
                             <input type="text" id="nombre" name="nombre" required>
                             <label for="correo">Correo electrónico:</label>
@@ -72,6 +81,15 @@
                             <input class="btn1 " type="submit" value="Enviar">
                         </form>
                     </div>
+                        </div>
+                      </div>
+                    </div>
+
+                 
+
+                    
+                    
+                  
 
                   
 
