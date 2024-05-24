@@ -28,6 +28,7 @@
                         <ul class="dropdown-menu">
 
                         <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                                                                    
@@ -52,6 +53,7 @@
                         <ul class="dropdown-menu">
 
                         <li class="nav-item"><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                                          
@@ -90,9 +92,9 @@
             <div class="carta" style="width: 23rem;">
             
                 <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
-                <h2 class="text-center">direccion:</h2>
+                <h2 class="text-center">Direccion:</h2>
                 <p class="text-center">Calle Manuel Gómez Morín 300, Janicho, 38933 Salvatierra, Gto.</p>
-                <h2 class="text-center">numero:</h2>
+                <h2 class="text-center">Numero:</h2>
                 <p class="text-center">466-103-5243</p>
             </div>
         </div>
