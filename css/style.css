@@ -37,3 +37,49 @@
 .card{
     background-color: #f1b87b;
 }
+
+.containers {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f1b87b;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+
+
+.Contactos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Contacto input[type="text"],
+.Contacto input[type="email"],
+.Contacto textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Ajustar el ancho para incluir el padding y borde */
+}
+
+.Contacto input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Contacto input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
