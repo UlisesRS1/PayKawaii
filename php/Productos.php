@@ -52,10 +52,10 @@
                       <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
 
-                        <li class="nav-item"><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
                         <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>                 
                         </ul>
                       </li>
                     </ul>
