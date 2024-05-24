@@ -42,7 +42,7 @@
                   </div>
                   <div class="d-none d-sm-none d-md-block">
 
-                  <nav id="navbar-example2" class="navbar fixed-top px-3 mb-3">
+                  <nav id="navbar-example2" class="navbar px-3 mb-3">
                     <a href="index.php">
                       <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
