@@ -18,7 +18,7 @@
       </div>
       <div class="login-content">
          <!-- Manejar la informacion que se manda de este formulario -->
-         <form method="post" action="">
+         <form method="post" action="../index.php">
             <img src="../svg/avatar.svg">
             <h2 class="title">BIENVENIDO</h2>
             <div class="input-div one">
