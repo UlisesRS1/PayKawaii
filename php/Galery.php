@@ -62,36 +62,43 @@
                   <h4 id="scrollspyHeading2" class="fs-1">Nuestra galeria</h4>
                     <!-- Galeryyyy bien -->
                     <div class="row mt-3 align-items-center" id="galery">
+                      
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#galery-1">
                     <img src="../img/Pay1.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-2">
                     <img src="../img/Rebanada.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-3">
                     <img src="../img/rebanada2.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-4">
                     <img src="../img/flan.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-5">
                     <img src="../img/flan2.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                   <button type="button" class="btn"   data-bs-toggle="modal" data-bs-target="#galery-6">
                     <img src="../img/pay-de-limon.jpg" alt="" class="w-100">
                   </button>
                 </div>
+
             </div>
 
                     <!-- Galeryyyyyy Modaaaall-->
