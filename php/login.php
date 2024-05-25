@@ -66,27 +66,28 @@
             </div>
             <div class="modal-body w-100">
                <!-- Manejar la informacion que se manda de este formulario -->
-               <form class="w-100">
-                  <div class="form-group">
-                     <label for="register-username" class="mb-2">Usuario</label>
-                     <input type="text" class="form-control w-100" id="register-username" placeholder="Usuario">
-                  </div>
-                  <div class="form-group mt-3">
-                     <label for="register-email" class="mb-2">Correo electrónico</label>
-                     <input type="email" class="form-control" id="register-email" placeholder="Correo electrónico">
-                  </div>
-                  <div class="form-group mt-3">
-                     <label for="register-password" class="mb-2">Contraseña</label>
-                     <input type="password" class="form-control" id="register-password" placeholder="Contraseña">
-                  </div>
-                  <button type="submit" class="btn">Registrarse</button>
-               </form>
-
+               <form class="w-100 needs-validation" novalidate>
+    <div class="form-group">
+        <label for="register-username" class="mb-2">Usuario</label>
+        <input type="text" class="form-control w-100" id="register-username" placeholder="Usuario" required>
+        <div class="invalid-feedback">Por favor, ingrese su nombre de usuario.</div>
+    </div>
+    <div class="form-group mt-3">
+        <label for="register-email" class="mb-2">Correo electrónico</label>
+        <input type="email" class="form-control" id="register-email" placeholder="Correo electrónico" required>
+        <div class="invalid-feedback">Por favor, ingrese un correo electrónico válido.</div>
+    </div>
+    <div class="form-group mt-3">
+        <label for="register-password" class="mb-2">Contraseña</label>
+        <input type="password" class="form-control" id="register-password" placeholder="Contraseña" required>
+        <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
+    </div>
+    <button type="submit" class="btn">Registrarse</button>
+</form>
             </div>
          </div>
       </div>
    </div>
-
    <script src="../js/jquery-3.3.1.slim.min.js"></script>
    <script src="../js/popper.min.js"></script>
    <script src="../js/bootstrap.min.js"></script>
@@ -94,7 +95,7 @@
    <script src="../js/main.js"></script>
    <script src="../js/main2.js"></script>
    <script src="../js/modal.js"></script>
-   
+   <script src="../js/validation_login.js"></script>
 </body>
 
 </html>
