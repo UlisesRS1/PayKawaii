@@ -18,7 +18,7 @@
       </div>
       <div class="login-content">
          <!-- Manejar la informacion que se manda de este formulario -->
-         <form method="post" action="../index.php">
+         <form method="post" action="login_b.php">
             <img src="../svg/avatar.svg">
             <h2 class="title">BIENVENIDO</h2>
             <div class="input-div one">
@@ -57,7 +57,27 @@
       </div>
    </div>
 
-   <!-- Modal -->
+<!-- Modal de Error -->
+<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title w-100 text-center" id="errorModalLabel">Error de Autenticación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="errorMessage">
+                    <!-- Mensaje de error -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+   <!-- Modal register -->
    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
@@ -66,20 +86,15 @@
             </div>
             <div class="modal-body w-100">
                <!-- Manejar la informacion que se manda de este formulario -->
-               <form class="w-100 needs-validation" novalidate>
+               <form class="w-100 needs-validation" method="post" action="register.php" novalidate>
     <div class="form-group">
         <label for="register-username" class="mb-2">Usuario</label>
-        <input type="text" class="form-control w-100" id="register-username" placeholder="Usuario" required>
+        <input type="text" class="form-control w-100" id="register-username" placeholder="Usuario" name="usuario" required>
         <div class="invalid-feedback">Por favor, ingrese su nombre de usuario.</div>
     </div>
     <div class="form-group mt-3">
-        <label for="register-email" class="mb-2">Correo electrónico</label>
-        <input type="email" class="form-control" id="register-email" placeholder="Correo electrónico" required>
-        <div class="invalid-feedback">Por favor, ingrese un correo electrónico válido.</div>
-    </div>
-    <div class="form-group mt-3">
         <label for="register-password" class="mb-2">Contraseña</label>
-        <input type="password" class="form-control" id="register-password" placeholder="Contraseña" required>
+        <input type="password" class="form-control" id="register-password" placeholder="Contraseña" name ="password" required>
         <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
     </div>
     <button type="submit" class="btn">Registrarse</button>
@@ -96,6 +111,24 @@
    <script src="../js/main2.js"></script>
    <script src="../js/modal.js"></script>
    <script src="../js/validation_login.js"></script>
+
+   <script>
+         $(document).ready(function() {
+         // Mostrar el modal con el mensaje si hay uno
+         var urlParams = new URLSearchParams(window.location.search);
+         if (urlParams.has('message')) {
+            var message = urlParams.get('message');
+            $('#errorMessage').text(message);
+            var errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+            errorModal.show();
+
+            // Eliminar el parámetro 'message' de la URL después de mostrar el modal
+            var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+            history.replaceState({}, document.title, newUrl);
+         }
+      });
+    </script>
+
 </body>
 
 </html>
