@@ -196,6 +196,7 @@
                               </svg>
                         </h5>
                         <p class="text-center">Todo el diseño, el texto, los gráficos y la selección y disposición del Sitio web son propiedad de la Compañía.©</p>
+                        <a href="php/login.php" class="btn btn-warning justify-content-center d-flex">Pruebas de login xd</a>
                     </footer>
 
                   </div>

@@ -14,6 +14,7 @@
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
             <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
                 <div class="d-flex col-12 align-items-center justify-content-between flex-column">
                       <div class="d-flex align-items-center">
@@ -28,6 +29,7 @@
                                 Perfil
                     </a>
                     <ul class="nav nav-pills">
+
                       <li class="nav-item dropdown">
                       <a class="nav-link  fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
@@ -35,7 +37,6 @@
                         <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-
 
                         </ul>
                       </li>
@@ -47,6 +48,7 @@
                   <div class="d-none d-sm-none d-md-block">
 
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
+
                     <div class="d-flex col-12 align-items-center justify-content-between">
                       <div class="d-flex align-items-center">
                     <a href="../index.php">
@@ -61,13 +63,13 @@
                     </a>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
+
                       <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
                         <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-
 
                         </ul>
                       </li>
@@ -76,29 +78,44 @@
                     </div>
                   </nav>
                   </div>
-                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
-                  <div class="container">
+                  <div class="containerd">
                     <div class="row justify-content-center">
-                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 23rem;">
-                            <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card container col-lg-6 col-md-6 col-sm-12 justify-content-center p-0" style="width: 20rem;">
-                        <div class="containers card ">
-                    <h1>Contacto</h1>
-                        <form class="Contactos" action="enviar.php" method="POST">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" required>
-                            <label for="correo">Correo electrónico:</label>
-                            <input type="email" id="correo" name="correo" required>
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                            <input class="btn1 " type="submit" value="Enviar">
+                      <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center p-0">
+                      <div class="carta" style="width: 25rem;">
+                      <div class="containerd carta">
+
+                      <h1>Contacto</h1>
+                      <form class="Contactos" action="enviar.   php" method="POST">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                        <form>
+                          <label for="mensaje">Mensaje:</label>
+                          <textarea id="mensaje" name="mensaje" rows="4" maxlength="200" class="limited-textarea" required></textarea>
                         </form>
-                    </div>
-                        </div>
-                      </div>
-                    </div>
+                        <button type="button" class="btn btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center p-0">
+          
+            <div class="carta" style="width: 23rem;">
+            
+                <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
+                <h2 class="text-center">Direccion:</h2>
+                <p class="text-center">Calle Manuel Gómez Morín 300, Janicho, 38933 Salvatierra, Gto.</p>
+                <h2 class="text-center">Numero:</h2>
+                <p class="text-center">466-103-5243</p>
+            </div>
+        </div>
+    </div>
+</div>
 
                  
 
