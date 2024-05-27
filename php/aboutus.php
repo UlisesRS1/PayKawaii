@@ -34,7 +34,11 @@
                         <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
                           <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
+<<<<<<< Updated upstream
                           <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
+=======
+                          <li><a class="dropdown-item" href="php/Contacto.php">Contacto</a></li>
+>>>>>>> Stashed changes
 
                         </ul>
                       </li>
