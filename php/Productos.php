@@ -81,7 +81,7 @@
                               echo '<div class="card-body d-flex flex-column">';
                               echo '<h5 class="card-title">' . $row["nombre_producto"] . '</h5>';
                               echo '<p class="card-text">' . $row["descripcion"] . '</p>';
-                              echo '<div class="btn btn-primary product-price d-flex justify-content-center mt-auto">$' . $row["precio"] . '</div>';
+                              echo '<div class="btn btn-color product-price d-flex justify-content-center mt-auto" style="background-color: #a8e9ee;">$' . $row["precio"] . '</div>';
                               echo '</div>';
                               echo '</div>';
                             }

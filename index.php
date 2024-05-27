@@ -112,21 +112,21 @@
                 <div class="container">
                     <div class="row">
                         <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
-                            <img src="img/PAY FRESA.png" class="card-img-top" alt="...">
+                            <img src="img/PAY FRESA.png" class="card-img-top" style="max-height: 170px;" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Gracias por visitarnos!!</h5>
                               <p class="card-text">Agradecemos tu visita a nuestra pagina web, cada usuario es como un nuevo miembro de esta familia amante de los buenos pays.</p>                              
                             </div>
                         </div>
                         <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
-                            <img src="img/pay-de-limon.jpg" class="card-img-top" alt="...">
+                            <img src="img/pay-de-limon.jpg" class="card-img-top" style="max-height: 170px;" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Pays completos</h5>
                               <p class="card-text">Al comprar por mayoreo recibes mejores precios!!, ¿Que esperas para ahorrar?.</p>                             
                             </div>
                         </div>
                         <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
-                            <img src="img/flan.jpg" class="card-img-top" alt="..." height="45%">
+                            <img src="img/flan.jpg" class="card-img-top" style="max-height: 170px;" alt="..." height="45%">
                             <div class="card-body">
                               <h5 class="card-title">Comentarios</h5>
                               <p class="card-text">Escribenos un comentario para saber tu opinion hacerca de nuestros pays, intentamos mejorar dia con dia</p>
