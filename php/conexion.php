@@ -4,8 +4,6 @@ $username = "root";
 $password = "";
 $dbname = "paykawaii";
 
-
-//paykawaii
-
+//conexion a base de datos
 $conexion = new mysqli($servername, $username, $password, $dbname);
 

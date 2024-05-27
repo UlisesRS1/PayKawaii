@@ -112,6 +112,7 @@
    <script src="../js/modal.js"></script>
    <script src="../js/validation_login.js"></script>
 
+   <!-- Mostar el modal en caso de error -->
    <script>
          $(document).ready(function() {
          // Mostrar el modal con el mensaje si hay uno

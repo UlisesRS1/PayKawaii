@@ -64,7 +64,7 @@
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls"tabindex="0">
 
                       <!-- Carta -->
-                <div class="container carta background-color-brown mt-5">
+                <div class="container carta background-color-brown">
                     <h1 id="Cards" class="text-center">Nuestros productos</h1>
                     <div class="row" id="productos">
                         <!-- Aquí se cargarán las tarjetas de productos desde la base de datos -->
