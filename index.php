@@ -15,19 +15,22 @@
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
                 <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
-                <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
-
-                <a href="index.php">
-                    <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
+                <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
+                <div class="d-flex col-12 align-items-center justify-content-between flex-column">
+                      <div class="d-flex align-items-center">
+                    <a href="index.php">
+                      <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
-
-                    <button type="button" class="btn perfil btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    </div>
+                    <div class="d-flex ml-auto align-items-center">
+                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
                                 Perfil
-                    </button>
+                    </a>
                     <ul class="nav nav-pills">
-                      <li class="nav-item dropdown text-center">
-                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <li class="nav-item dropdown">
+                      <a class="nav-link  fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
 
                           <li class="nav-item"><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
@@ -38,24 +41,30 @@
                         </ul>
                       </li>
                     </ul>
+                    </div>
+                    </div>
                   </nav>
                   </div>
                   <div class="d-none d-sm-none d-md-block">
 
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
+                    <div class="d-flex col-12 align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
                     <a href="index.php">
                       <img src="svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
-
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    </div>
+                    <div class="d-flex ml-auto align-items-center">
+                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
                                 Perfil
-                    </button>
+                    </a>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                      <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                      <a class="nav-link  fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-
+                            
                           <li class="nav-item"><a class="dropdown-item" href="php/aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="php/Galery.php">Galeria</a></li>
                           <li><a class="dropdown-item" href="php/Productos.php">Productos</a></li>
@@ -64,6 +73,8 @@
                         </ul>
                       </li>
                     </ul>
+                    </div>
+                    </div>
                   </nav>
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
@@ -81,19 +92,19 @@
                           <div class="carousel-item active">
                             <img src="img/Pay1.jpg" class="d-block w-100" alt="..." width="" height="500">
                             <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fs-3">Prueba nuestros deliciosos pays de queso!!</h5>
+                              <h5 class="" style="color:#bce6e9; background-color: rgb(62, 19, 102); border-radius: 2rem;">Prueba nuestros deliciosos pays de queso!!</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
                             <img src="img/rebanada2.jpg" class="d-block w-100" alt="..." width="" height="500">
                             <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fs-3">Cada rebanada esta cuidadosamente elaborada</h5>
+                              <h5 class="fs-3" style="color:#bce6e9; background-color: rgb(62, 19, 102); border-radius: 2rem;">Cada rebanada esta cuidadosamente elaborada</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
                             <img src="img/Rebanada.jpg" class="d-block w-100" alt="..." width="" height="500">
                             <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fs-3">Los pays son vida!!</h5><br>
+                              <h5 class="" style="color:#bce6e9; background-color: rgb(62, 19, 102); border-radius: 2rem;">Los pays son vida!!</h5><br>
                             </div>
                           </div>
                         </div>
@@ -111,22 +122,22 @@
                     <h4 id="scrollspyHeading2" class="fs-1">Te sugerimos</h4>
                 <div class="container">
                     <div class="row">
-                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
-                            <img src="img/PAY FRESA.png" class="card-img-top" alt="...">
+                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 22rem;">
+                            <img src="img/PAY FRESA.png" class="card-img-top" alt="..." height="47%">
                             <div class="card-body">
                               <h5 class="card-title">Gracias por visitarnos!!</h5>
                               <p class="card-text">Agradecemos tu visita a nuestra pagina web, cada usuario es como un nuevo miembro de esta familia amante de los buenos pays.</p>                              
                             </div>
                         </div>
-                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
+                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 22rem;">
                             <img src="img/pay-de-limon.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Pays completos</h5>
                               <p class="card-text">Al comprar por mayoreo recibes mejores precios!!, ¿Que esperas para ahorrar?.</p>                             
                             </div>
                         </div>
-                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 18rem;">
-                            <img src="img/flan.jpg" class="card-img-top" alt="..." height="45%">
+                        <div class="card container col-lg-3 col-md-6 col-sm-12 justify-content-between p-0" style="width: 22rem;">
+                            <img src="img/flan.jpg" class="card-img-top" alt="..." height="47%">
                             <div class="card-body">
                               <h5 class="card-title">Comentarios</h5>
                               <p class="card-text">Escribenos un comentario para saber tu opinion hacerca de nuestros pays, intentamos mejorar dia con dia</p>
