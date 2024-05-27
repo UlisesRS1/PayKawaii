@@ -14,55 +14,71 @@
     <div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
-                <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
-                <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center">
+
+            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
+                <div class="d-flex col-12 align-items-center justify-content-between flex-column">
+                      <div class="d-flex align-items-center">
                     <a href="../index.php">
                       <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+                    </div>
+                    <div class="d-flex ml-auto align-items-center">
+                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
+
                                 Perfil
-                    </button>
+                    </a>
                     <ul class="nav nav-pills">
-                      <li class="nav-item dropdown text-center">
-                      <a href="../index.php">
-                        <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
-                      </a>
+
+                      <li class="nav-item dropdown">
+                      <a class="nav-link  fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Inicio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Ofertas</a></li>
-                          <li><a class="dropdown-item" href="index.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Productos</a></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading4">Contactanos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
+
                         </ul>
                       </li>
                     </ul>
+                    </div>
+                    </div>
                   </nav>
                   </div>
                   <div class="d-none d-sm-none d-md-block">
+
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
+
+                    <div class="d-flex col-12 align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
                     <a href="../index.php">
-                     <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
+                      <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
-                    <h1 class="navbar-brand text-danger fs-2" href="#">Reposteria "El pay Kawai"</h1>
-                    <button type="button" class="btn btn1 btn-primary" data-bs-toggle="" data-bs-target="">
+                    <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
+                    </div>
+                    <div class="d-flex ml-auto align-items-center">
+                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
+
                                 Perfil
-                    </button>
+                    </a>
                     <ul class="nav nav-pills">
                       <li class="nav-item dropdown">
-                        <a class="nav-link btn1 dropdown-toggle fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
-                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contactos</a></li>
 
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#scrollspyHeading5">Pie de pagina</a></li>
+                      <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
+                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
+                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
+
                         </ul>
                       </li>
                     </ul>
+                    </div>
+                    </div>
                   </nav>
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
