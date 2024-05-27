@@ -68,8 +68,6 @@
                   </div>
                   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 scrolls" tabindex="0">
 
-
-                    <h4 id="scrollspyHeading1"></h4>
                     <!-- Carrusel -->
                     <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block d-lg-block mt-5">
                         <div class="carousel-indicators">
@@ -81,7 +79,7 @@
                           <div class="carousel-item active">
                             <img src="img/Pay1.jpg" class="d-block w-100" alt="..." width="" height="500">
                             <div class="carousel-caption d-none d-md-block">
-                              <h5 class="fs-3">Prueba nuestros deliciosos pays de queso!!</h5>
+                              <h5 class="fs-3" style="background-color: red;">Prueba nuestros deliciosos pays de queso!!</h5>
                             </div>
                           </div>
                           <div class="carousel-item">

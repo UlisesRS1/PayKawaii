@@ -19,12 +19,14 @@
 .navbar{
     background-color: #eebea5;
 }
+
 .fs-1, .morado{
     color: #eca356;
 }
+
 .fs-3{
     color:#f69da3;
-    background-color: rgba(137, 43, 226, 0.555);
+    background-color: red;
     border-radius: 2rem;
 }
 
