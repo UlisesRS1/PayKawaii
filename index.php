@@ -25,7 +25,7 @@
                     </div>
                     <div class="d-flex ml-auto align-items-center">
                     <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
-                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="php/Perfil.php">
                                 Perfil
                     </a>
                     <ul class="nav nav-pills">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="d-flex ml-auto align-items-center">
                     <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
-                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
+                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="php/Perfil.php">
                                 Perfil
                     </a>
                     <ul class="nav nav-pills">
