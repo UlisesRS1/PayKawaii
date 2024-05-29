@@ -22,6 +22,8 @@
     $stmt->fetch();
     $stmt->close();
 ?>
+
+
       <!DOCTYPE html>
       <html lang="en">
       <head>
@@ -86,21 +88,14 @@
                                   <h1 class="navbar-brand text-danger fs-2">PayKawaii</h1>
                               </div>
                               <div class="d-flex ml-auto align-items-center">
-                                  <ul class="nav nav-pills">
-                                      <li class="nav-item dropdown">
-                                          <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                                              <img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20">
-                                          </a>
-                                          <ul class="dropdown-menu">
-                                              <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
-                                              <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
-                                              <li><a class="dropdown-item" href="Galery.php">Galería</a></li>
-                                              <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-                                              <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </div>
+                                <nav class="nav">
+                                    <a class="nav-link fs-4 morado" href="pagina_principal.php">Inicio</a>
+                                    <a class="nav-link fs-4 morado" href="aboutus.php">Nosotros</a>
+                                    <a class="nav-link fs-4 morado" href="Galery.php">Galería</a>
+                                    <a class="nav-link fs-4 morado" href="Contacto.php">Contacto</a>
+                                    <a class="nav-link fs-4 morado" href="Productos.php">Productos</a>
+                                </nav>
+                            </div>
                           </div>
                       </nav>
                   </div>
@@ -119,12 +114,17 @@
                                             ?>
                                             </h2>
                                       </div>
-                                      <button type="button" class="btn btn1 mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#modal">
+                                      <button type="button" class="btn btn1 mt-3 mb-3 w-50" data-bs-toggle="modal" data-bs-target="#modal">
                                           Cambiar nombre de usuario
                                       </button>
-                                      <button type="button" class="btn btn1 mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                      <button type="button" class="btn btn1 mt-3 mb-3 w-50" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                             Eliminar Perfil
                                         </button>
+                                      
+                                        <button type="button" class="btn btn1 mt-3 mb-3 w-50" onclick="location.href='logout.php'">
+                                            Salir de la cuenta
+                                        </button>
+
                                   </form>
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">

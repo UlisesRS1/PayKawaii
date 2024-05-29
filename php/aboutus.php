@@ -1,3 +1,28 @@
+<?php
+session_start();
+
+// Incluir el archivo de conexión a la base de datos
+include("conexion.php");
+
+// Verificar si el usuario ha iniciado sesión y obtener su nombre
+if (isset($_SESSION['id_usuario'])) {
+    $id_usuario = $_SESSION['id_usuario'];
+    
+    // Consultar el nombre del usuario en la base de datos
+    $stmt = $conexion->prepare("SELECT usuario FROM usuarios WHERE id_usuario = ?");
+    $stmt->bind_param("i", $id_usuario);
+    $stmt->execute();
+    $stmt->bind_result($nombre_usuario);
+    $stmt->fetch();
+    $stmt->close();
+} else {
+    $nombre_usuario = 'Invitado';
+}
+
+// Cerrar la conexión a la base de datos
+$conexion->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +48,12 @@
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     </div>
                     <div class="d-flex ml-auto align-items-center">
-                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                    <a type="" class="d-flex perfil p-3 fs-4 align-items-center" style="color: rgb(62, 19, 102);
                       text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                </svg>
                                 Perfil
                     </a>
                     <ul class="nav nav-pills">
@@ -54,23 +83,22 @@
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     </div>
                     <div class="d-flex ml-auto align-items-center">
-                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
-                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
-                                Perfil
-                    </a>
-                    <ul class="nav nav-pills">
-                      <li class="nav-item dropdown">
-                      <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
-                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
-
-                        </ul>
-                      </li>
-                    </ul>
-                    </div>
+                      <nav class="nav">
+                        <a class="nav-link fs-4 morado" href="pagina_principal.php">Inicio</a>
+                        <a class="nav-link fs-4 morado" href="Galery.php">Galería</a>
+                        <a class="nav-link fs-4 morado" href="Contacto.php">Contacto</a>
+                        <a class="nav-link fs-4 morado" href="Productos.php">Productos</a>
+                      </nav>
+                      <a class="d-flex perfil p-3 fs-4 align-items-center" 
+                        style="color: rgb(62, 19, 102); text-decoration: none;" 
+                        href="perfil.php">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                          </svg>
+                          <?php echo htmlspecialchars($nombre_usuario); ?>
+                      </a>
+                  </div>
                     </div>
                   </nav>
                   </div>
@@ -93,7 +121,6 @@
                       </div>
                     </div>
                                      
-                    <h4 id="scrollspyHeading5"></h4>
                     <footer class="border col-12 footer align-items-center justify-content-around">
                         <h5 class="text-center"> Contactanos:       
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">

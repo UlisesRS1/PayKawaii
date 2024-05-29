@@ -10,53 +10,49 @@
    <title>Inicio de sesión</title>
 </head>
 
+
 <body>
-   <img class="wave" src="img/wave_1.png">
-   <div class="container">
-      <div class="img">
-         
-      </div>
-      <div class="login-content">
-         <!-- Manejar la informacion que se manda de este formulario -->
-         <form method="post" action="php/login_b.php">
-            <img src="svg/avatar.svg">
+<div class="container card scrolls flex-column justify-content-center align-items-center" style="background-color: #fbe9d7; ">
+        <div class="login-content flex-column justify-content-center align-items-center">
+            <img src="svg/avatar.svg" alt="Avatar">
             <h2 class="title">BIENVENIDO</h2>
-            <div class="input-div one">
-               <div class="i">
-                  <i class="fas fa-user"></i>
-               </div>
-               <div class="div">
-                  <h5>Usuario</h5>
-                  <input id="usuario" type="text" class="input" name="usuario">
-               </div>
-            </div>
-            <div class="input-div pass">
-               <div class="i">
-                  <i class="fas fa-lock"></i>
-               </div>
-               <div class="div">
-                  <h5>Contraseña</h5>
-                  <input type="password" id="input" class="input" name="password">
-               </div>
-            </div>
-            <div class="view">
-               <div class="fas fa-eye verPassword" onclick="vista()" id="verPassword"></div>
-            </div>
-
-            <input name="btningresar" class="btn" type="submit" value="INICIAR SESION">
-
-            <div class="text-center">
+            <form method="post" class="d-flex flex-column " action="php/login_b.php">
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Usuario</h5>
+                        <input id="usuario" type="text" class="input" name="usuario">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Contraseña</h5>
+                        <input type="password" id="input" class="input" name="password">
+                    </div>
+                </div>
+                <div class="view">
+                    <div class="fas fa-eye verPassword" onclick="vista()" id="verPassword"></div>
+                </div>
+                <input name="btningresar" class="btn btn1" style="background-color: #a8e9ee; height: 50px; color:#2B0A07;" type="submit" value="INICIAR SESION">
+            </form>
             <hr class="divider">
-            <p>¿No estas registrado?</p>
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#registerModal">
-               <p class="font-italic isai5 mt-1">Registrarse</p>
+            <p>¿No estás registrado?</p>
+            <button type="button" class="btn" style="background-color: #a8e9ee; height: 50px; width: 65%; color:#2B0A07;" data-bs-toggle="modal" data-bs-target="#registerModal">
+                <p class="font-italic isai5 mt-1">Registrarse</p>
             </button>
+        </div>
+        <div class="carta" style="width: 23rem;">
+            
+                <img src="../img/Paykawaii.jpeg" class="card-img-top" alt="...">
+
             </div>
-
-         </form>
-      </div>
-   </div>
-
+    </div>
+    
 <!-- Modal de Error -->
 <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -97,7 +93,7 @@
         <input type="password" class="form-control" id="register-password" placeholder="Contraseña" name ="password" required>
         <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
     </div>
-    <button type="submit" class="btn">Registrarse</button>
+    <button type="submit" class="btn" style="background-color: #a8e9ee; height: 50px; color:#2B0A07;">Registrarse</button>
 </form>
             </div>
          </div>
