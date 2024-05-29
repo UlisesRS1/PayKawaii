@@ -41,7 +41,7 @@ $conexion->close();
             <div class="col-12 ">
 
 
-            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <div class="navbar-fixed fid-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
                 <div class="d-flex col-12 align-items-center justify-content-between flex-column">
                       <div class="d-flex align-items-center">
@@ -77,7 +77,7 @@ $conexion->close();
                     </div>
                   </nav>
                   </div>
-                  <div class="d-none d-sm-none d-md-block">
+                  <div class="d-none d-sm-none d-md-none d-lg-block">
 
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
 
