@@ -36,6 +36,11 @@
   color:#2B0A07;
 }
 
+.btn1:hover {
+    background-color: #2B0A07;
+    color: white;
+}
+
 .card{
     background-color: #f1b87b;
     margin-top: 1rem;
@@ -76,7 +81,15 @@ textarea.limited-textarea {
     resize: none;        
 }
 
+.btn-cancel{
+    background-color: #a8e9ee;
+    color:#2B0A07;
+}
 
+.btn-cancel:hover{
+    background-color: #eca356;
+    color: aliceblue;
+}
 
 /* Ajustes responsivos */
 @media (max-width: 767px) {

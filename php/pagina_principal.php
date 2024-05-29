@@ -167,11 +167,11 @@
                                           <label class="form-check-label" for="validationFormCheck1">Aceptas que utilicemos tu comentario para mejorar nuestros productos</label>
                                           <div class="invalid-feedback">Acepta para poder enviar</div>
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                        <button type="submit" class="btn btn1">Enviar</button>
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn1" data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                                 </div>
