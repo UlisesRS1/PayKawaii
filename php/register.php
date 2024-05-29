@@ -1,5 +1,9 @@
 <?php
+// Incluir el archivo de conexión a la base de datos
 include ("conexion.php");
+
+// Iniciar una nueva sesión o reanudar la existente
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuario = $_POST['usuario'];
@@ -23,13 +27,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $stmt = $conexion->prepare("INSERT INTO usuarios (usuario, contraseña) VALUES (?, ?)");
         $stmt->bind_param("ss", $usuario, $password_hash);
-        $stmt->execute();
-        $stmt->close();
-        $conexion->close();
 
-        // Redirigir al usuario a la página principal
-        header("Location: pagina_principal.php");
-        exit();
+        if ($stmt->execute()) {
+            // Registro exitoso, iniciar sesión automáticamente
+            $id_usuario = $stmt->insert_id;
+            $_SESSION['id_usuario'] = $id_usuario;
+            
+            // Redirigir al usuario a la página de perfil o principal
+            header("Location: pagina_principal.php");
+            exit();
+        } else {
+            // Error en el registro
+            $message = "Error en el registro: " . $stmt->error;
+            header("Location: ../index.php?message=" . urlencode($message));
+            exit();
+        }
     }
 
     $stmt->close();

@@ -13,33 +13,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contraseña = $_POST['password'];
 
     // Preparar y ejecutar la consulta para verificar el usuario
-    $stmt = $conexion->prepare("SELECT contraseña FROM usuarios WHERE usuario = ?");
+    $stmt = $conexion->prepare("SELECT id_usuario, contraseña FROM usuarios WHERE usuario = ?");
     $stmt->bind_param("s", $usuario);
     $stmt->execute();
     $stmt->store_result();
 
     // Verificar si se encontró un usuario con el nombre proporcionado
     if ($stmt->num_rows > 0) {
-        $stmt->bind_result($contraseña_hash);
+        $stmt->bind_result($id_usuario, $contraseña_hash);
         $stmt->fetch();
 
         // Verificar la contraseña
         if (password_verify($contraseña, $contraseña_hash)) {
             // Autenticación exitosa
-
-            // Preparar y ejecutar la consulta para obtener el ID del usuario
-            $stmt_id = $conexion->prepare("SELECT id_usuario FROM usuarios WHERE usuario = ?");
-            $stmt_id->bind_param("s", $usuario);
-            $stmt_id->execute();
-            $stmt_id->bind_result($id_usuario);
-            $stmt_id->fetch();
             
-            // Guardar el ID del usuario en la variable de sesión
+            // Guardar el ID y el nombre de usuario en la variable de sesión
             $_SESSION['id_usuario'] = $id_usuario;
+            $_SESSION['usuario'] = $usuario;
 
-            // Cerrar la segunda consulta
-            $stmt_id->close();
-            
+            // Cerrar la consulta
+            $stmt->close();
+
             // Redirigir al usuario a la página de inicio
             header("Location: pagina_principal.php");
             exit();
@@ -52,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = "Usuario no encontrado";
     }
 
-    // Cerrar la primera consulta
+    // Cerrar la consulta
     $stmt->close();
     // Cerrar la conexión a la base de datos
     $conexion->close();
