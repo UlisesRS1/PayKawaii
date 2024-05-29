@@ -17,7 +17,7 @@
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
                 <div class="d-flex col-12 align-items-center justify-content-between flex-column">
                       <div class="d-flex align-items-center">
-                    <a href="../index.php">
+                    <a href="pagina_principal.php">
                       <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
@@ -31,7 +31,7 @@
                       <li class="nav-item dropdown">
                       <a class="nav-link  fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
                         <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                           <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                           <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
@@ -48,7 +48,7 @@
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
                     <div class="d-flex col-12 align-items-center justify-content-between">
                       <div class="d-flex align-items-center">
-                    <a href="../index.php">
+                    <a href="pagina_principal.php">
                       <img src="../svg/PayKawaii.svg" alt="" width="70" height="70">
                     </a>
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
@@ -62,7 +62,7 @@
                       <li class="nav-item dropdown">
                       <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../index.php">Inicio</a></li>
+                        <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
 
                         <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
 

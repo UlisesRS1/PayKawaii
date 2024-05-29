@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->num_rows > 0) {
         // Usuario ya existe
         $message = "Usuario ya existente, elige otro por favor";
-        header("Location: login.php?message=" . urlencode($message));
+        header("Location: ../index.php?message=" . urlencode($message));
         exit();
     } else {
         // Usuario no existe, proceder con la inserción
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conexion->close();
 
         // Redirigir al usuario a la página principal
-        header("Location: ../index.php");
+        header("Location: pagina_principal.php");
         exit();
     }
 
