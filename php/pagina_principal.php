@@ -39,7 +39,7 @@ $conexion->close();
     <div class="container">
         <div class="row"> <!-- .row>.col-1.border*12 -->
             <div class="col-12 ">
-                <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                <div class="navbar-fixed fid-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
                 <div class="d-flex col-12 align-items-center justify-content-between flex-column">
                       <div class="d-flex align-items-center">
@@ -74,7 +74,7 @@ $conexion->close();
                     </div>
                   </nav>
                   </div>
-                  <div class="d-none d-sm-none d-md-block">
+                  <div class="d-none d-sm-none d-md-none d-lg-block">
 
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
                     <div class="d-flex col-12 align-items-center justify-content-between">
@@ -86,7 +86,6 @@ $conexion->close();
                     </div>
                     <div class="d-flex ml-auto align-items-center">
                       <nav class="nav">
-                        <a class="nav-link fs-4 morado" href="pagina_principal.php">Inicio</a>
                         <a class="nav-link fs-4 morado" href="aboutus.php">Nosotros</a>
                         <a class="nav-link fs-4 morado" href="Galery.php">Galería</a>
                         <a class="nav-link fs-4 morado" href="Contacto.php">Contacto</a>
