@@ -7,7 +7,7 @@
         header("Location: login.php");
         exit();
     }
-
+  
     // Incluir el archivo de conexión a la base de datos
     include("conexion.php");
 
@@ -55,6 +55,7 @@
                                               <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
                                               <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                                               <li><a class="dropdown-item" href="Galery.php">Galería</a></li>
+                                              <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                                               <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
                                           </ul>
                                       </li>
@@ -82,6 +83,7 @@
                                               <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
                                               <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
                                               <li><a class="dropdown-item" href="Galery.php">Galería</a></li>
+                                              <li><a class="dropdown-item" href="Productos.php">Productos</a></li>
                                               <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
                                           </ul>
                                       </li>
