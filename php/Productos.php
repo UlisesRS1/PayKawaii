@@ -1,3 +1,28 @@
+<?php
+session_start();
+
+// Incluir el archivo de conexión a la base de datos
+include("conexion.php");
+
+// Verificar si el usuario ha iniciado sesión y obtener su nombre
+if (isset($_SESSION['id_usuario'])) {
+    $id_usuario = $_SESSION['id_usuario'];
+    
+    // Consultar el nombre del usuario en la base de datos
+    $stmt = $conexion->prepare("SELECT usuario FROM usuarios WHERE id_usuario = ?");
+    $stmt->bind_param("i", $id_usuario);
+    $stmt->execute();
+    $stmt->bind_result($nombre_usuario);
+    $stmt->fetch();
+    $stmt->close();
+} else {
+    $nombre_usuario = 'Invitado';
+}
+
+// Cerrar la conexión a la base de datos
+$conexion->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +41,7 @@
             <div class="col-12 ">
 
 
-            <div class="navbar-fixed fid-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+            <div class="navbar-fixed fid-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
                 <nav id="navbar-example2" class="navbar px-3 mb-3 d-flex justify-content-center align-items-center ">
                 <div class="d-flex col-12 align-items-center justify-content-between flex-column">
                       <div class="d-flex align-items-center">
@@ -26,9 +51,13 @@
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     </div>
                     <div class="d-flex ml-auto align-items-center">
-                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
+                    <a type="" class="d-flex perfil p-3 fs-4 align-items-center" style="color: rgb(62, 19, 102);
                       text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
-                                Perfil
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                </svg>
+                                <?php echo htmlspecialchars($nombre_usuario); ?>
                     </a>
                     <ul class="nav nav-pills">
 
@@ -48,7 +77,7 @@
                     </div>
                   </nav>
                   </div>
-                  <div class="d-none d-sm-none d-md-block">
+                  <div class="d-none d-sm-none d-md-none d-lg-block">
 
                   <nav id="navbar-example2" class="navbar px-3 mb-3">
 
@@ -60,23 +89,23 @@
                     <h1 class="navbar-brand text-danger fs-2" href="#">PayKawaii</h1>
                     </div>
                     <div class="d-flex ml-auto align-items-center">
-                    <a type="" class="d-flex perfil p-3 fs-4" style="color: rgb(62, 19, 102);
-                      text-decoration: none;" data-bs-toggle="" data-bs-target="" href="perfil.php">
-                                Perfil
-                    </a>
-                    <ul class="nav nav-pills">
-                      <li class="nav-item dropdown">
+                      <nav class="nav">
+                        <a class="nav-link fs-4 morado" href="pagina_principal.php">Inicio</a>
+                        <a class="nav-link fs-4 morado" href="aboutus.php">Nosotros</a>
+                        <a class="nav-link fs-4 morado" href="Galery.php">Galería</a>
+                        <a class="nav-link fs-4 morado" href="Contacto.php">Contacto</a>
+                      </nav>
+                      <a class="d-flex perfil p-3 fs-4 align-items-center" 
+                        style="color: rgb(62, 19, 102); text-decoration: none;" 
+                        href="perfil.php">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                          </svg>
+                          <?php echo htmlspecialchars($nombre_usuario); ?>
+                      </a>
+                  </div>
 
-                      <a class="nav-link fs-4 morado shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="../svg/menu-button-wide-fill.svg" alt="" width="20" height="20"></a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="pagina_principal.php">Inicio</a></li>
-                        <li class="nav-item"><a class="dropdown-item" href="aboutus.php">Nosotros</a></li>
-                          <li><a class="dropdown-item" href="Galery.php">Galeria</a></li>
-                          <li><a class="dropdown-item" href="Contacto.php">Contacto</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                    </div>
                     </div>
                   </nav>
                   </div>
@@ -100,7 +129,7 @@
                               echo '<div class="card-body d-flex flex-column">';
                               echo '<h5 class="card-title">' . $row["nombre_producto"] . '</h5>';
                               echo '<p class="card-text">' . $row["descripcion"] . '</p>';
-                              echo '<div class="btn btn-color product-price d-flex justify-content-center mt-auto" style="background-color: #a8e9ee;">$' . $row["precio"] . '</div>';
+                              echo '<div class="btn btn-color product-price d-flex justify-content-center mt-auto" style="background-color: #a8e9ee;" data-bs-toggle="modal" data-bs-target="#productModal" data-name="' . $row["nombre_producto"] . '" data-description="' . $row["descripcion"] . '" data-price="' . $row["precio"] . '" data-image="' . $row["url_image"] . '">Comprar</div>';
                               echo '</div>';
                               echo '</div>';
                             }
@@ -113,7 +142,34 @@
                     </div>
                 </div>
             
-
+                <!-- Modal -->
+              <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="background-color: #eca356;">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="productModalLabel">Producto</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="text-center">
+                        <img id="modalProductImage" src="" alt="Producto" style="max-height: 200px;" class="img-fluid">
+                      </div>
+                      <h5 id="modalProductName" class="mt-3"></h5>
+                      <p id="modalProductDescription"></p>
+                      <h6 id="modalProductPrice" class="text-muted"></h6>
+                      <div class="mb-3">
+                        <label for="productQuantity" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" id="productQuantity" value="1" min="1">
+                      </div>
+                      <h6>Total: $<span id="modalTotalPrice"></span></h6>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn1" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn1">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
                     
                                      
@@ -141,5 +197,38 @@
 
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var productModal = document.getElementById('productModal');
+            productModal.addEventListener('show.bs.modal', function (event) {
+                var button = event.relatedTarget;
+                var productName = button.getAttribute('data-name');
+                var productDescription = button.getAttribute('data-description');
+                var productPrice = button.getAttribute('data-price');
+                var productImage = button.getAttribute('data-image');
+
+                var modalTitle = productModal.querySelector('.modal-title');
+                var modalProductName = document.getElementById('modalProductName');
+                var modalProductDescription = document.getElementById('modalProductDescription');
+                var modalProductPrice = document.getElementById('modalProductPrice');
+                var modalProductImage = document.getElementById('modalProductImage');
+                var modalTotalPrice = document.getElementById('modalTotalPrice');
+                var productQuantity = document.getElementById('productQuantity');
+
+                modalTitle.textContent = productName;
+                modalProductName.textContent = productName;
+                modalProductDescription.textContent = productDescription;
+                modalProductPrice.textContent = '$' + productPrice;
+                modalProductImage.src = productImage;
+                modalTotalPrice.textContent = productPrice;
+
+                productQuantity.addEventListener('input', function () {
+                    var quantity = productQuantity.value;
+                    var total = quantity * productPrice;
+                    modalTotalPrice.textContent = total.toFixed(2);
+                });
+            });
+        });
+</script>
 </body>
 </html>
