@@ -90,10 +90,10 @@ $conexion->close();
                     </div>
                     <div class="d-flex ml-auto align-items-center">
                       <nav class="nav">
-                        <a class="nav-link fs-4 morado" href="pagina_principal.php">Inicio</a>
-                        <a class="nav-link fs-4 morado" href="aboutus.php">Nosotros</a>
-                        <a class="nav-link fs-4 morado" href="Galery.php">Galería</a>
-                        <a class="nav-link fs-4 morado" href="Contacto.php">Contacto</a>
+                        <a class="nav-link fs-4 morado" style="color: rgb(107, 46, 163); text-decoration: none;" href="pagina_principal.php">Inicio</a>
+                        <a class="nav-link fs-4 morado" style="color: rgb(107, 46, 163); text-decoration: none;" href="aboutus.php">Nosotros</a>
+                        <a class="nav-link fs-4 morado" style="color: rgb(107, 46, 163); text-decoration: none;" href="Galery.php">Galería</a>
+                        <a class="nav-link fs-4 morado" style="color: rgb(107, 46, 163); text-decoration: none;" href="Contacto.php">Contacto</a>
                       </nav>
                       <a class="d-flex perfil p-3 fs-4 align-items-center" 
                         style="color: rgb(62, 19, 102); text-decoration: none;" 
